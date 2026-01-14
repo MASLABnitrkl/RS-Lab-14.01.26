@@ -1,0 +1,10 @@
+def check_odd_even(numbers):
+    
+    for num in numbers:          
+        if num % 2 == 0:         
+            print(num, "is an even number")
+        else:
+            print(num, "is an odd number")
+
+numbers_list = [1, 2, 3, 4, 5]
+check_odd_even(numbers_list)
